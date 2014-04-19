@@ -1,5 +1,17 @@
 MockStock
 
-A simple stock market simulator
+This is a simple stock market simulator.
 
-The backend APIs are all present in the directory named APIs
+The backend has been developed on MySQL database.
+
+Usage:
+ - The system has a login page. Users can login through this page.
+ - If its a new user then, there is a sign up option as well.
+ - Successful login will lead the user to dashboard where the user's shares are shown.
+ - The trade page is where shares are bought and sold.
+ - The seller board shows shares which are available for buying.
+ - Modification of seller board is also possible by the user.
+ - IPO page show IPOs at a particular time if there are any.
+ 
+The entire database interaction is done using PHP.
+There is a file by name config.txt where one can modify the credentials to login to MySQL database.
