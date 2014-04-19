@@ -1,0 +1,266 @@
+body {
+    background-color: #ada8f3;
+}
+
+#title {
+    text-align: center;
+    font-family: Algerian;
+    color: #fff;
+    padding-top: 25px;
+	padding-bottom: 20px;
+	margin:0px 0px 0px 0px;
+	width: 100%;
+	left:0px;
+	right:0px;
+	top:0px;
+    background-color: #070c48;
+    border-radius:10px;
+}
+
+#menu {
+	background-color: #E1E1E1;
+	font:calibri;
+	width:100%;
+	left:0px;
+	right:0px;
+	bottom:auto;
+	z-index:+2;
+	position: fixed;
+	font-size:larger;
+	box-shadow: 0px 5px 5px #888;
+}
+
+
+#menu ul {
+	list-style-type:none;
+	margin: 0px 0px 0px 40px;
+	padding:0px;
+	font-family:calibri;
+	color:#000;
+}
+
+#menu ul li {
+	display:inline;
+}
+
+#menu a{
+	font-family: Calibri;
+	color:#000;
+	text-decoration:none;
+	}
+	
+#menu a:hover{
+	color:#966;
+}
+
+#menu .current_menu a{
+	color:#966;
+	}
+
+#login_table {
+    text-align: center;
+    font-family: Tahoma;
+}
+
+#login_form {
+    text-align: center;
+    font-family: Tahoma;
+}
+
+#sign_up_form {
+    text-align: center;
+    font-family: Tahoma;
+}
+
+#user_details {
+    font-family: Tahoma;
+    color: #966;
+}
+
+#user_info {
+    text-align: right;
+    font-family: Tahoma;
+    color: #e7e5e5;
+    padding-right: 10px;
+}
+
+/*dashboard table*/
+table#t1 {
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing:15px;
+	background-color:#e7e5e5;
+	border-radius:10px;
+	border:2px solid #5b5c61;
+	width:500px;
+	max-width:800px;
+	padding:10px 0 10px 0;
+    text-align: center;
+}
+
+/*Seller Board table*/
+table#t2 {
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing:15px;
+	background-color:#e7e5e5;
+	border-radius:10px;
+	border:2px solid #5b5c61;
+	width:700px;
+	max-width:800px;
+	padding:10px 0 10px 0;
+    text-align: center;
+    font-family: Tahoma;
+    color: #966;
+}
+
+
+table#buy_form {
+    margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing:15px;
+	background-color:#FFC;
+	border-radius:10px;
+	border:2px solid #FC6;
+	width:500px;
+	max-width:800px;
+	padding:10px 0 10px 0;
+    text-align: center;
+    font-family: Tahoma;
+    color: #966;
+}
+
+table#trade {
+    border-spacing:15px;
+    padding:10px 0 10px 0;
+}
+
+
+table#sell_form {
+    margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing:15px;
+	background-color:#FFC;
+	border-radius:10px;
+	border:2px solid #FC6;
+	width:500px;
+	max-width:800px;
+	padding:10px 0 10px 0;
+    text-align: center;
+    font-family: Tahoma;
+    color: #966;
+}
+
+#transaction_status {
+    text-align: center;
+    font-family: Tahoma;
+    font-size: x-large;
+}
+
+table#login_form {
+    margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing:15px;
+	background-color:#FFC;
+	border-radius:10px;
+	border:2px solid #FC6;
+	width:800px;
+	padding:10px 0 10px 0;
+    text-align: center;
+    font-family: Tahoma;
+    color: #966;
+}
+
+table#ipo {
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing:15px;
+	background-color:#e7e5e5;
+	border-radius:10px;
+	border:2px solid #5b5c61;
+	width:600px;
+	max-width:800px;
+	padding:10px 0 10px 0;
+    text-align: center;
+    font-family: Tahoma;
+    color: #966;
+}
+
+table#ipo_form {
+    margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing:15px;
+	background-color:#FFC;
+	border-radius:10px;
+	border:2px solid #FC6;
+	width:600px;
+	max-width:800px;
+	padding:10px 0 10px 0;
+    text-align: center;
+    font-family: Tahoma;
+    color: #966;
+}
+
+table#ipo_main {
+    border-spacing:15px;
+    padding:10px 0 10px 0;
+}
+
+table#remove_from_sellerBoard_form {
+    margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing:15px;
+	background-color:#FFC;
+	border-radius:10px;
+	border:2px solid #FC6;
+	width:600px;
+	max-width:800px;
+	padding:10px 0 10px 0;
+    text-align: center;
+    font-family: Tahoma;
+    color: #966;
+}
+
+table#dashboard_main {
+    border-spacing:15px;
+    padding:10px 0 10px 0;
+}
+
+#balance_display {
+    text-align: center;
+    font-family: Tahoma;
+    color: #966;
+    padding-top: 25px;
+	padding-bottom: 20px;
+	margin:0px 0px 0px 0px;
+	right:0px;
+	top:0px;
+    background-color: #e7e5e5;
+    border-radius:10px;
+    border:2px solid #5b5c61;
+    width:400px;
+}
+
+table#my_seller_board_details {
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing:15px;
+	background-color:#e7e5e5;
+	border-radius:10px;
+	border:2px solid #5b5c61;
+	width:500px;
+	max-width:800px;
+	padding:10px 0 10px 0;
+    text-align: center;
+    font-family: Tahoma;
+    color: #966;
+}
