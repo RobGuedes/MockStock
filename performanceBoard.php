@@ -42,7 +42,7 @@
                     ".$row['share_price']."
                 </td>
                 <td>
-                    "."+35%"."
+                    ".$row['performance']."%"."
                 </td>
             </tr>
         ");

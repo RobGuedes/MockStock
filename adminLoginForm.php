@@ -2,19 +2,12 @@
     session_start();
 ?>
 <!DOCTYPE html>
-
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
-        <title>TV Trading Co., Ltd.</title>
+        <title></title>
     </head>
     <body>
-        <div id="title">
-            <h1>TV Trading Co., Ltd.</h1>stalking the beauty of trade since time immemorial .....
-        </div>
-        <hr>
-        <br />
        <?php
         $email = $_POST['email'];
         $password = $_POST['password'];
@@ -31,7 +24,7 @@
             echo "<font color='white'>Failed to connect to MySQL: " . mysqli_connect_error()."</font>";
         }
 
-        $query = "SELECT * FROM `users` WHERE `email` = \"$email\" AND `password` = \"$password\"";
+        $query = "SELECT * FROM `admin` WHERE `email` = \"$email\" AND `password` = \"$password\"";
         #echo($query);
         $result = mysqli_query($conn, $query);
 
@@ -51,7 +44,7 @@
             $row = mysqli_fetch_array($result);
             $_SESSION['user_email'] = $row['email'];
             $_SESSION['user_name'] = $row['name'];
-            header('Location: dashboard.php');
+            header('Location: adminPanel.php');
         }
 
         mysqli_close($conn);

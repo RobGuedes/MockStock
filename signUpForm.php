@@ -36,10 +36,10 @@
             $result = mysqli_query($conn, $query);
 
             if(mysqli_num_rows($result) == 0) {
-                $query = "INSERT INTO `users` (name, email, password, balance) VALUES (\"$name\", \"$email\", \"$password\", 10000)";
+                $query = "INSERT INTO `users` (name, email, password, balance) VALUES (\"$name\", \"$email\", \"$password\", 50000)";
                 $result = mysqli_query($conn, $query);
-                #echo (mysqli_num_rows($result));
-                
+                echo("<div id='transaction_status'><font color='green'>Player registration successful!</font></div>");
+                header('Location:login.html');                
             }
             else {
                 echo("

@@ -25,7 +25,7 @@ body {
 	right:0px;
 	bottom:auto;
 	z-index:+2;
-	position: fixed;
+	
 	font-size:larger;
 	box-shadow: 0px 5px 5px #888;
 }
@@ -258,6 +258,38 @@ table#my_seller_board_details {
 	border-radius:10px;
 	border:2px solid #5b5c61;
 	width:500px;
+	max-width:800px;
+	padding:10px 0 10px 0;
+    text-align: center;
+    font-family: Tahoma;
+    color: #966;
+}
+
+table#company_performance_editor {
+    margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing:15px;
+	background-color:#FFC;
+	border-radius:10px;
+	border:2px solid #FC6;
+	width:600px;
+	max-width:800px;
+	padding:10px 0 10px 0;
+    text-align: center;
+    font-family: Tahoma;
+    color: #966;
+}
+
+table#ipo_editor {
+    margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing:15px;
+	background-color:#FFC;
+	border-radius:10px;
+	border:2px solid #FC6;
+	width:600px;
 	max-width:800px;
 	padding:10px 0 10px 0;
     text-align: center;
